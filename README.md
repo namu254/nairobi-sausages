@@ -24,7 +24,8 @@ The project contains the following interface:
 - Submit Pig Details: [https://nairobi-sausages.vercel.app/sell](https://nairobi-sausages.vercel.app/sell)
 
 
-### Vite Plugin `vite-plugin-ssr` is used of server-side rendering. 
+### Vite Plugin [`vite-plugin-ssr`](https://vite-plugin-ssr.com/) is used for server-side rendering.
+
 Files and folders to note
 
 - `api/ssr.js`: This Vercel API Route is responsible for server-side rendering when deploying to Vercel hosting
