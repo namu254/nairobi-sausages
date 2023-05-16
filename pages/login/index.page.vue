@@ -17,7 +17,7 @@
             <input type="password" placeholder="Password" required />
           </div>
           <div>
-            <button type="submit" class="action-button">Login</button>
+            <Link href="/"><button type="button" class="action-button">Login</button></Link>
           </div>
         </form>
         <div>
@@ -28,7 +28,9 @@
     </div>
   </div>
 </template>
-
+<script setup>
+import Link from '../../renderer/Link.vue'
+</script>
 
 <style lang="sass" scoped>
 .two-columns

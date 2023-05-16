@@ -1,5 +1,5 @@
 <template>
-    <div class="stats-box">
+    <div data-aos="fade-up" class="stats-box">
         <div class="order-box">
             <p class="box-p">Farm</p>
             <div class="divide-x flex">
@@ -14,10 +14,15 @@
                 <p class="order-no">36</p>
                 <p class="order-text">Large White</p>
             </div>
-            <button class="button green-button">Sell a batch</button>
+            <Link href="/sell"><button class="button green-button">Sell a batch</button></Link>
+            
         </div>
     </div>
 </template>
+<script setup>
+import Link from '../../renderer/Link.vue'
+
+</script>
 
 <style scoped lang="sass">
 $dashboard-color: #EDEAE7

@@ -5,12 +5,13 @@
     </div>
     <div class="scroll">
       <div class="nav">
-        <img src="/back.webp" alt="menu" class="icon" />
+        <Link href="/"><img src="/back.webp" alt="menu" class="icon" /></Link>
+
         <h1>Nairobi Sausages</h1>
         <img src="/user.webp" class="icon" alt="user" />
       </div>
       <div class="nav-desktop">
-        <img src="/back.webp" class="icon" alt="user" />
+        <Link href="/"><img src="/back.webp" alt="menu" class="icon" /></Link>
         <img src="/main-logo.webp" alt="logo" />
         <p class="hide">.</p>
       </div>
@@ -78,6 +79,7 @@
 
 <script setup>
 import { ref, watch } from 'vue';
+import Link from '../../renderer/Link.vue'
 
 const selectedAge = ref('');
 const selectedWeight = ref('');

@@ -7,7 +7,7 @@
     </div>
     <div class="nav-desktop">
       <p class="hide">.</p>
-      <img  src="/main-logo.webp" alt="logo" />
+      <img src="/main-logo.webp" alt="logo" />
       <img src="/user.webp" class="icon" alt="user" />
     </div>
     <p>Dashboard</p>
@@ -17,6 +17,7 @@
   </div>
 </template>
 <script setup>
+
 import Stats from './stats.vue'
 import Posts from './posts.vue';
 </script>
